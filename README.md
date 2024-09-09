@@ -7,7 +7,7 @@
 
 ## Deployment
 
-To deploy this project run
+To deploy this project in streamlit web application, run
 
 ```bash
   streamlit run filename.py
