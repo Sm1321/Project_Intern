@@ -16,12 +16,13 @@ Business Constraint:
 • Maximize fairness in bonus distribution.
 
 Success Criteria:
-• Business Success Criteria: Achieve a 10% increase in profit margins through optimized bonus 
+
+ - Business Success Criteria: Achieve a 10% increase in profit margins through optimized bonus 
 allocation.
 
-• Machine Learning Success Criteria: Achieve an accuracy of at least 95%.
+- Machine Learning Success Criteria: Achieve an accuracy of at least 95%.
 
-• Economic Success Criteria: Generate a 20% increase in revenue from the solution within the 
+- Economic Success Criteria: Generate a 20% increase in revenue from the solution within the 
 first year of implementation
 
 
