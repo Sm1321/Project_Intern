@@ -13,7 +13,7 @@ Business Objective:
 2. Minimize variance in bonus distribution.
 
 Business Constraint:
-• Maximize fairness in bonus distribution.
+- Maximize fairness in bonus distribution.
 
 Success Criteria:
 
