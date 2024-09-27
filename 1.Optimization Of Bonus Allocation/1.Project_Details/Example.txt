@@ -1,0 +1,70 @@
+The KPIs (Key Performance Indicators) you are using in the bonus allocation project help optimize the decision-making process by identifying the customers who are most likely to benefit from a bonus.
+These indicators provide insights into 
+1.customer behavior and value,
+2.helping allocate bonuses in a way that maximizes customer satisfaction, business revenue, and engagement.
+
+->Here’s how each KPI contributes to the bonus allocation process:
+--------------------------------------------------------------------------------------------
+
+1. Income Level
+-------------------
+How it helps:
+-  Customers with higher income levels may have the capacity to place larger bets. Offering bonuses to these customers could lead to higher engagement and more significant revenue generation.
+
+
+2. Winning Percentage
+-------------------
+How it helps:
+-  Customers with a high winning percentage are already engaged and motivated. A well-timed bonus could push them to increase their bets, generating more revenue for the business.
+
+3. Days Since Last Bet
+-------------------
+How it helps:
+-  If a customer hasn’t placed a bet in a while, offering a bonus could re-engage them, bringing them back to the platform. This helps in customer retention and increasing their activity.
+
+4. Active Days.
+-------------------
+How it helps:
+-  Customers who are consistently active may respond well to bonuses, which can keep them engaged and betting frequently. Rewarding these customers could help maintain their loyalty and betting patterns.
+
+5. Total Number of Bets
+-------------------
+How it helps:
+-  Customers who place many bets are typically highly engaged. A bonus might encourage them to bet even more, thereby increasing revenue. By identifying these customers, bonuses can be allocated more efficiently.
+
+
+6. Total Amount Wagered
+-------------------
+How it helps:
+-  This shows how much a customer bets over time. High-wagering customers are important to the business, and rewarding them with bonuses can strengthen their relationship with the platform, ensuring continued high-value betting activity.
+
+
+7. Average Bet Amount
+-------------------
+How it helps:
+-  Customers with higher average bet amounts might be incentivized to place even larger bets if given a bonus. This KPI helps in targeting high-value customers for better returns on bonus allocations.
+
+8. Number of Bonuses Received
+-------------------
+How it helps:
+-  This KPI helps track the customer’s history with bonuses. If a customer has previously responded well to bonuses (i.e., increased betting after receiving one), it suggests that future bonuses would be effective too.
+
+9. Amount of Bonuses Received
+-------------------
+How it helps: 
+- This tracks how much value a customer has already received in bonuses. It helps in deciding whether to offer more or fewer bonuses to balance costs with returns.
+
+10. Revenue from Bonuses
+-------------------
+How it helps: 
+- This KPI helps assess whether the bonuses given have led to increased revenue. By tracking this, the model can focus on customers who have proven to generate revenue after receiving bonuses.
+
+11. Increase in Bets After Bonus
+-------------------
+How it helps: 
+- If a customer significantly increases their number of bets after receiving a bonus, it shows that bonuses are effective for them. This KPI helps prioritize customers who are likely to respond positively to future bonuses.
+
+12. Increase in Wagering After Bonus
+-------------------
+How it helps: 
+- If a customer’s wagering amount increases after receiving a bonus, it indicates the bonus's success in encouraging larger bets. This KPI helps in allocating bonuses to customers who are likely to bet more after receiving them.
