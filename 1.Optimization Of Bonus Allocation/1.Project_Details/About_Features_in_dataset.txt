@@ -9,23 +9,27 @@ These indicators provide insights into
 1. Income Level
 -------------------
 How it helps:
--  Customers with higher income levels may have the capacity to place larger bets. Offering bonuses to these customers could lead to higher engagement and more significant revenue generation.
+-  Customers with higher income levels may have the capacity to place larger bets. 
+- Offering bonuses to these customers could lead to higher engagement and more significant revenue generation.
 
 
 2. Winning Percentage
 -------------------
 How it helps:
--  Customers with a high winning percentage are already engaged and motivated. A well-timed bonus could push them to increase their bets, generating more revenue for the business.
+-  Customers with a high winning percentage are already engaged and motivated.
+- A well-timed bonus could push them to increase their bets, generating more revenue for the business.
 
 3. Days Since Last Bet
 -------------------
 How it helps:
--  If a customer hasn’t placed a bet in a while, offering a bonus could re-engage them, bringing them back to the platform. This helps in customer retention and increasing their activity.
+-  If a customer hasn’t placed a bet in a while, offering a bonus could re-engage them, bringing them back to the platform.
+- This helps in customer retention and increasing their activity.
 
 4. Active Days.
 -------------------
 How it helps:
--  Customers who are consistently active may respond well to bonuses, which can keep them engaged and betting frequently. Rewarding these customers could help maintain their loyalty and betting patterns.
+-  Customers who are consistently active may respond well to bonuses, which can keep them engaged and betting frequently.
+- Rewarding these customers could help maintain their loyalty and betting patterns.
 
 5. Total Number of Bets
 -------------------
