@@ -1,10 +1,12 @@
 # Optimization Of Bonous Allocation
 
 Bonus Allocation Optimization Project Summary
+____________________________________________________
 - The project aims to optimize the process of allocating bonuses to customers, ensuring alignment with business goals such as maximizing customer satisfaction, increasing engagement, and driving profits.
 - A machine learning model is built to predict which customers should receive bonuses based on key performance indicators (KPIs).
 
 Key Steps Involved:
+______________________________________________________
 Data Analysis & Preprocessing:
 - Analyzing customer data and preparing it by cleaning, handling outliers, and encoding categorical variables.
 
@@ -15,13 +17,15 @@ Key KPIs Used:
   - Recognizing engaged customers who might increase activity with bonuses.
 - Days Since Last Bet:
   -  Re-engaging inactive customers.
-Total Amount Wagered:
+- Total Amount Wagered:
   - Targeting high-value customers.
+    
 - Number of Bonuses Received:
   - Ensuring bonuses are effective in driving future bets.
 Machine Learning Models: Models like Random Forest, XGBoost, and Gradient Boosting are used to predict whether a customer should receive a bonus based on these KPIs.
 
-Outcome: The model helps the business allocate bonuses effectively, boosting customer retention, engagement, and profitability while minimizing costs.
+Outcome:
+- The model helps the business allocate bonuses effectively, boosting customer retention, engagement, and profitability while minimizing costs.
 ____________________________________________________________________________________________________________________________________________________________________
 Business Problem:
 The company faces inefficiencies in its bonus allocation process, leading to suboptimal use of 
