@@ -22,7 +22,7 @@ Total Amount Wagered:
 Machine Learning Models: Models like Random Forest, XGBoost, and Gradient Boosting are used to predict whether a customer should receive a bonus based on these KPIs.
 
 Outcome: The model helps the business allocate bonuses effectively, boosting customer retention, engagement, and profitability while minimizing costs.
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+____________________________________________________________________________________________________________________________________________________________________
 Business Problem:
 The company faces inefficiencies in its bonus allocation process, leading to suboptimal use of 
 resources and customer dissatisfaction. The current method does not align bonus distribution with 
