@@ -5,8 +5,9 @@ ____________________________________________________
 - The project aims to optimize the process of allocating bonuses to customers, ensuring alignment with business goals such as maximizing customer satisfaction, increasing engagement, and driving profits.
 - A machine learning model is built to predict which customers should receive bonuses based on key performance indicators (KPIs).
 
-Key Steps Involved:
+
 ______________________________________________________
+Key Steps Involved:
 Data Analysis & Preprocessing:
 - Analyzing customer data and preparing it by cleaning, handling outliers, and encoding categorical variables.
 
