@@ -37,15 +37,16 @@ Success Criteria:
 
 
 2. Technologies Used
-LangChain: For building chains of actions and integrating multiple language models.
+   
+- LangChain: For building chains of actions and integrating multiple language models.
 
-Generative AI: To generate natural language responses and content.
+- Generative AI: To generate natural language responses and content.
 
-Google Gemini: A large language model providing generative capabilities.
+- Google Gemini: A large language model providing generative capabilities.
 
-LLMs (Large Language Models): For understanding and processing the text.
+- LLMs (Large Language Models): For understanding and processing the text.
 
-Transformers: For leveraging state-of-the-art NLP techniques.
+- Transformers: For leveraging state-of-the-art NLP techniques.
 
 
 3. Implementation Steps
