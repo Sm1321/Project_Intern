@@ -28,10 +28,12 @@ Key KPIs Used:
 - bonus_amount_received
     - Amount of Bonnous recived
 
-- Number of Bonuses Received:
-  - Ensuring bonuses are effective in driving future bets.
+
+
 Machine Learning Models: Models like Random Forest, XGBoost, and Gradient Boosting are used to predict whether a customer should receive a bonus based on these KPIs.
 
+- RandomForst Did best
+- 
 Outcome:
 - The model helps the business allocate bonuses effectively, boosting customer retention, engagement, and profitability while minimizing costs.
 ____________________________________________________________________________________________________________________________________________________________________
