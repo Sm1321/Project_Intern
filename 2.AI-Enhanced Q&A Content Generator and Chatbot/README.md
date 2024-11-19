@@ -28,17 +28,32 @@ Success Criteria:
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 1. Approach
 - To fulfill the project objectives, a real-time Q&A generator system was developed using the following advanced technologies:
+  
   - Gemini-Pro: A generative AI model that enhances response quality and contextual relevance.
+
   - LangChain: A framework for integrating language models that simplifies document processing and question answering.
+
   -  Google Generative AI Embeddings: Employed for efficient similarity searches through embedding text into dense vectors.
 
 
 2. Technologies Used
-LangChain: For building chains of actions and integrating multiple language models.
-Generative AI: To generate natural language responses and content.
-Google Gemini: A large language model providing generative capabilities.
-LLMs (Large Language Models): For understanding and processing the text.
-Transformers: For leveraging state-of-the-art NLP techniques.
+   
+- LangChain:
+  - For building chains of actions and integrating multiple language models.
+
+- Generative AI:
+  -  To generate natural language responses and content.
+
+- Google Gemini:
+  - A large language model providing generative capabilities.
+
+- LLMs (Large Language Models):
+  - For understanding and processing the text.
+
+- Transformers:
+  - For leveraging state-of-the-art NLP techniques.
+
+
 3. Implementation Steps
 - PDF Upload and Text Extraction: Users upload PDF documents, and text is extracted using the PyPDF2 library.
 - Text Chunking: Extracted text is divided into manageable chunks to optimize processing for similarity searches.
