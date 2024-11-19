@@ -16,11 +16,18 @@ Key KPIs Used:
   - Identifying customers who can place larger bets.
 - Winning Percentage:
   - Recognizing engaged customers who might increase activity with bonuses.
-- Days Since Last Bet:
+- days_since_last_purchase:
   -  Re-engaging inactive customers.
-- Total Amount Wagered:
+-  total_amount_spent:
   - Targeting high-value customers.
-    
+
+- last_purchase_amount        
+   last amount buyed
+   
+
+- bonus_amount_received
+    - Amount of Bonnous recived
+
 - Number of Bonuses Received:
   - Ensuring bonuses are effective in driving future bets.
 Machine Learning Models: Models like Random Forest, XGBoost, and Gradient Boosting are used to predict whether a customer should receive a bonus based on these KPIs.
