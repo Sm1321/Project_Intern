@@ -5,77 +5,71 @@ These indicators provide insights into
 
 ->Here’s how each KPI contributes to the bonus allocation process:
 --------------------------------------------------------------------------------------------
+#### About the Dataset
 
-1. Income Level
--------------------
-How it helps:
--  Customers with higher income levels may have the capacity to place larger bets. 
-- Offering bonuses to these customers could lead to higher engagement and more significant revenue generation.
+customer_id: 
+- Unique identifier for each customer (integer, 1 to 10,000).
+
+customer_name: 
+- The name of the customer
+age: 
+- Age of the customer, generated using a normal distribution with a mean of 40 and a standard deviation of 15, clipped between 18 and 70.
+
+income_level: 
+- The income level of the customer, categorized as Low, Medium, or High, with the following probabilities: 40% Low, 40% Medium, and 20% High.
+
+days_since_last_purchase: 
+- Number of days since the customer made their most recent purchase. This is generated using a log-normal distribution to reflect a higher concentration of recent purchases.
+
+active_days: 
+- The number of days the customer was active during the past year (between 30 and 365 days).
+
+total_number_of_purchases: 
+- Total number of purchases made by the customer in the past year. Generated using a normal distribution and clipped between 100 and 5000.
+
+total_amount_spent: 
+- Total amount of money spent by the customer in the past year. This is generated using a log-normal distribution, reflecting varied spending patterns between customers, and clipped between 500 and 50,000.
+
+avg_amount_spent: 
+- Average amount spent per purchase, calculated as total_amount_spent / total_number_of_purchases.
+
+days_since_first_purchase: 
+- The number of days since the customer made their first purchase. This is generated randomly between 1 and 1000.
+
+purchase_frequency: 
+- The frequency of purchases made by the customer per year (between 0.5 and 2.0 purchases per year).
+
+last_purchase_amount: 
+- The amount spent by the customer in their most recent purchase. This is randomly generated between 50 and 5000.
+
+seasonal_purchase_behavior: 
+- A binary indicator (0 or 1) of whether the customer exhibits seasonal purchase behavior (1 = buys seasonally, 0 = does not).
+
+emails_received: 
+- The number of marketing or promotional emails the customer has received in the past year (between 1 and 20).
+
+emails_opened: 
+- The number of marketing emails the customer has opened in the past year (between 0 and 20).
+
+promo_codes_used: 
+- The number of promotional codes the customer has used in the past year (between 0 and 10).
 
 
-2. Winning Percentage
--------------------
-How it helps:
--  Customers with a high winning percentage are already engaged and motivated.
-- A well-timed bonus could push them to increase their bets, generating more revenue for the business.
-
-3. Days Since Last Bet
--------------------
-How it helps:
--  If a customer hasn’t placed a bet in a while, offering a bonus could re-engage them, bringing them back to the platform.
-- This helps in customer retention and increasing their activity.
-
-4. Active Days.
--------------------
-How it helps:
--  Customers who are consistently active may respond well to bonuses, which can keep them engaged and betting frequently.
-- Rewarding these customers could help maintain their loyalty and betting patterns.
-
-5. Total Number of Bets
--------------------
-How it helps:
--  Customers who place many bets are typically highly engaged.
-- A bonus might encourage them to bet even more, thereby increasing revenue.
-- By identifying these customers, bonuses can be allocated more efficiently.
+refunds: 
+- The number of refunds requested by the customer in the past year (between 0 and 5).
 
 
-6. Total Amount Wagered
--------------------
-How it helps:
--  This shows how much a customer bets over time.
-- High-wagering customers are important to the business, and rewarding them with bonuses can strengthen their relationship with the platform, ensuring continued high-value betting activity.
+avg_discount: 
+- The average discount percentage the customer has received in the past year (between 0% and 30%).
 
 
-7. Average Bet Amount
--------------------
-How it helps:
--  Customers with higher average bet amounts might be incentivized to place even larger bets if given a bonus. This KPI helps in targeting high-value customers for better returns on bonus allocations.
+location: 
+- The location of the customer, categorized as Urban, Suburban, or Rural.
 
-8. Number of Bonuses Received
--------------------
-How it helps:
--  This KPI helps track the customer’s history with bonuses. 
-- If a customer has previously responded well to bonuses (i.e., increased betting after receiving one), it suggests that future bonuses would be effective too.
 
-9. Amount of Bonuses Received
--------------------
-How it helps: 
-- This tracks how much value a customer has already received in bonuses.
-- It helps in deciding whether to offer more or fewer bonuses to balance costs with returns.
+bonus_amount_received: 
+- A calculated bonus amount received by the customer, based on a percentage (0.05%) of the total amount spent, plus an additional amount based on the number of purchases. This introduces complexity and reflects customer activity.
 
-10. Revenue from Bonuses
--------------------
-How it helps: 
-- This KPI helps assess whether the bonuses given have led to increased revenue.
-- By tracking this, the model can focus on customers who have proven to generate revenue after receiving bonuses.
-
-11. Increase in Bets After Bonus
--------------------
-How it helps: 
-- If a customer significantly increases their number of bets after receiving a bonus, it shows that bonuses are effective for them.
-- This KPI helps prioritize customers who are likely to respond positively to future bonuses.
-
-12. Increase in Wagering After Bonus
 -------------------
 How it helps: 
 - If a customer’s wagering amount increases after receiving a bonus, it indicates the bonus's success in encouraging larger bets.
