@@ -13,7 +13,7 @@ Data Analysis & Preprocessing:
 
 Key KPIs Used:
 - Income Level: 
-  - Identifying customers who can place larger bets.
+  - Identifying customers who can spent larger Amount.
 - Winning Percentage:
   - Recognizing engaged customers who might increase activity with bonuses.
 - days_since_last_purchase:
